@@ -1,0 +1,134 @@
+nav {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+.nav-active{
+  font-weight: bold;
+  color:black;
+}
+  .carousel-inner img {
+    width: 100%;
+    height: 650px;
+  }
+  .carousel-caption img{
+    width: 250px;
+    height: 250px;
+  }
+  .carousel-indicators {
+    margin-bottom: 100px;
+    margin-left: 250px;
+    border: 50%;
+  }
+  .carousel-caption{
+    margin-bottom:120px;
+  }
+  @media only screen and (max-width: 900px) {
+    .carousel-inner img {
+      width: 100%;
+      height: 350px;
+    }
+    .carousel-caption{
+      margin-bottom:20px;
+    }
+  .carousel-indicators {
+      margin-bottom: 80px;
+      margin-left: 250px;
+      border: 50%;
+    }
+    .navbar-brand{
+          font-size: 20px;
+    }
+    .carousel-caption img{
+      width: 100px;
+      height: 100px;
+    }
+    .Activitiesphoto{
+      height: 200px;
+      width: 70%;
+    }
+  }
+
+  #contact {
+    background-image: url("https://www.ses.com/sites/default/files/inline-images/world_map.gif");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: 100% 100%;
+  }
+
+  input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-bottom: 15px;
+  }
+
+  .leadimg{
+ 
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ border-radius: 5px;
+  height: 250px;
+  width: 250px;
+  margin: auto;
+}
+
+.leadimg:hover{
+   font-size:30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.socialmedia{font-size: 30px;
+    padding: 15px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 3px;
+    border-radius: 50%;
+     background: rgb(0, 0, 0);
+    color: white;
+    
+  }
+  
+  .socialmedia:hover {
+     background: white;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    cursor: pointer;
+   
+  }
+  .navbar-brand{
+    font-family: 'Baskervville';
+    font-size: 35px;
+    text-transform: uppercase;
+  }
+.details{
+  text-align: center;
+  
+}
+#submit{
+ 
+    color: #014ed4;
+    background-color: #1a1a1a00;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    border:2px solid #014ed4;
+  }
+  #submit:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #014ed4;
+  }
+
+
+.Activitiesphoto{
+  height: 300px;
+  width: 50%;
+}
